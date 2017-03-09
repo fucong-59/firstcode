@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+ >
+	<TextView
+	    android:id="@+id/welcome1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:text="\n这是第一个界面\n"
+	    />
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二个页面（显式）"
+        />
+    <Button
+        android:id="@+id/button_2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="第三个页面（隐式）"
+        />
+</LinearLayout>
